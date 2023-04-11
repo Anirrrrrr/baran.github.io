@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>FOR BRO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<p>ARE YOU THE BEST FRIEND IN THE WORLD?</p>
+<img src="photo_2022-11-05_19-34-33.jpg">
+</body>
+
+</head>
+<body>
+<button id="botao1">YES :)</button>
+<button id="botao2">NO :(</button>
+<script>
+const button2 = document.getElementById('botao2');
+let left = 40;
+button2.addEventListener('mouseover', function() {
+  if(left == 40){
+    left = 44;
+  }else{
+    left = 40;
+  }
+  this.style.left = left + '%';
+});
+
+</script>
+<script>document.getElementById('botao1').addEventListener('click', function() {
+alert('YAYY  U ARE THE BEST. HAPPY BTHD! I LOVE U!!');
+});
+</script>
+</body>
+</html>
